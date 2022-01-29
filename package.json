@@ -1,7 +1,7 @@
 {
-  "name": "Key Exchange Service",
+  "name": "keyagreedment-service-poc",
   "version": "1.0.0",
-  "description": "Serviço de troca de chaves para criptogria de ponto a ponto",
+  "description": "Serviço de troca de chaves para criptografia assimétrica",
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js",
