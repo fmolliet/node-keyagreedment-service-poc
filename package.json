@@ -1,7 +1,7 @@
 {
-  "name": "poc_keyExchangeService",
+  "name": "Key Exchange Service",
   "version": "1.0.0",
-  "description": "",
+  "description": "Serviço de troca de chaves para criptogria de ponto a ponto",
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js",
@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "Fabio Pedreira Molliet",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^14.3.2",

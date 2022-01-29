@@ -1,6 +1,6 @@
 const { createECDH } = require('crypto');
 
-class Service {
+class CipherService {
     
     async keyAgreedment( clientPublicKey ){
         const crypto = createECDH('secp521r1');
@@ -15,4 +15,4 @@ class Service {
     }
 }
 
-module.exports = new Service();
+module.exports = new CipherService();
