@@ -1,4 +1,4 @@
-# node-keyagreedment-service-poc
+# KeyAgreedment Service
 Serviço de troca de chaves para criptografia assimétrica
 
 ### Como utilizar:
