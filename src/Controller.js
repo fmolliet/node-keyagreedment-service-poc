@@ -55,6 +55,10 @@ class Controller {
         }
     }
     
+    async assymetricTest(req, res ){
+        
+    }
+    
     async getKey( req, res ){
         if ( req.body || req.body.clientPublicKey ){
             res.status(400).json({message:"Invalid body"});
