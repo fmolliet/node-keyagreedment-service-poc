@@ -4,7 +4,8 @@ const Controller = require('./Controller')
 
 const routes = Router();
 
-routes.post('/keys', Controller.initialize)
+routes.post('/symetric/keys', Controller.initialize)
+    .post('/assymetric/keys', Controller.assymetricKeyExchange)
 
 
 module.exports = routes; 

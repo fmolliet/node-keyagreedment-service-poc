@@ -8,7 +8,7 @@ const superagent     = require('superagent');
     
     try {
         const res = await superagent
-            .post('http://localhost:3000/keys')
+            .post('http://localhost:3000/symetric/keys')
             .set('Content-Type', 'application/json')
             .send({ clientPublicKey:  publicKey.toString("hex") }) // sends a JSON post body
             .set('Accept', 'application/json')
