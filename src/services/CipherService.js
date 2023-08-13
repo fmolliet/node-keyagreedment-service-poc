@@ -4,7 +4,7 @@ class CipherService {
     
     async keyAgreedment( clientPublicKey ){
        
-        const crypto = createECDH('secp521r1');
+        const crypto = createECDH('secp256k1');
         const serverPublicKey = crypto.generateKeys();
         
         const cryptogram = crypto.computeSecret(Buffer.from(clientPublicKey, 'hex'));
